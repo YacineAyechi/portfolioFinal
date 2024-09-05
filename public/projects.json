@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "title": "Dha7akna",
+    "description": "Minecraft server ",
+    "technologies": "Next.js 14, Tailwind CSS, Firebase",
+    "image": "/projects/dha7akna.png",
+    "liveLink": "dha7akna.lol",
+    "sourceCodeLink": "#"
+  },
+  {
+    "id": "2",
+    "title": "Ecommerce Comeq Pro",
+    "description": "Description of another project",
+    "technologies": "Tech Stack",
+    "image": "/projects/dha7akna.png",
+    "liveLink": "#",
+    "sourceCodeLink": "#"
+  },
+  {
+    "id": "3",
+    "title": "TimeCapsule",
+    "description": "Description of another project",
+    "technologies": "Tech Stack",
+    "image": "/projects/dha7akna.png",
+    "liveLink": "#",
+    "sourceCodeLink": "#"
+  },
+  {
+    "id": "4",
+    "title": "TaskTrackrr",
+    "description": "Description of another project",
+    "technologies": "Tech Stack",
+    "image": "/projects/dha7akna.png",
+    "liveLink": "#",
+    "sourceCodeLink": "#"
+  },
+  {
+    "id": "5",
+    "title": "SwiftLink (Url Shortener)",
+    "description": "Description of another project",
+    "technologies": "Tech Stack",
+    "image": "/projects/dha7akna.png",
+    "liveLink": "#",
+    "sourceCodeLink": "#"
+  },
+  {
+    "id": "6",
+    "title": "MusIQ",
+    "description": "Description of another project",
+    "technologies": "Tech Stack",
+    "image": "/projects/dha7akna.png",
+    "liveLink": "#",
+    "sourceCodeLink": "#"
+  },
+  {
+    "id": "7",
+    "title": "CodeLingua",
+    "description": "Description of another project",
+    "technologies": "Tech Stack",
+    "image": "/projects/dha7akna.png",
+    "liveLink": "#",
+    "sourceCodeLink": "#"
+  }
+]
