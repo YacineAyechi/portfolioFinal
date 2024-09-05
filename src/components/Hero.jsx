@@ -27,9 +27,9 @@ const Hero = () => {
 
       <div className="relative">
         <Image
-          src="/image.jfif"
+          src="/image.png"
           alt="Yacine Ayachi Image"
-          className=" w-96 h-96 object-cover rounded-full"
+          className="w-96 h-96 object-cover rounded-full"
           width={384}
           height={384}
           priority
