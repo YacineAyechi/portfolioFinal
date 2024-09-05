@@ -27,13 +27,12 @@ const Hero = () => {
 
       <div className="relative">
         <Image
-          // src="/me.webp"
           src="/image.jfif"
           alt="Yacine Ayachi Image"
           className=" w-96 h-96 object-cover rounded-full"
           width={384}
           height={384}
-          priority={true}
+          priority
         />
         {/* Overlayed div with paragraph */}
         <div className="w-80 flex justify-center absolute bottom-0 left-1/2 transform -translate-x-1/2 border-2 border-[#C778DD] bg-[#282c33] text-[#ABB2BF] p-2 rounded-lg">
