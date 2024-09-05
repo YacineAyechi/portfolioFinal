@@ -1,0 +1,42 @@
+{
+  "Hero": {
+    "greeting": "Hello, I am a",
+    "et": "and a",
+    "desc": "I am a self-taught front-end Developer. With over 4 years of experience in web development and building tools to help businesses grow. I also have some skills in UI/UX design.",
+    "cta": "Contact Me",
+    "job": "Currently working on",
+    "litteralJob": "Portfolio"
+  },
+
+  "Navbar": {
+    "home": "home",
+    "works": "projets",
+    "about": "about-me",
+    "contacts": "contacts"
+  },
+
+  "Projects": {
+    "viewAll": "View All",
+    "projects": "projects",
+    "live": "Demo",
+    "sourceCode": "Source Code"
+  },
+
+  "Skills": {
+    "skills": "skills"
+  },
+
+  "AboutMe": {
+    "about": "about-me"
+  },
+
+  "Contacts": {
+    "contacts": "contacts",
+    "contactHere": "Contact me here",
+    "contactDescription": " I am interested in freelance opportunities. However, if you have other request or question, do not hesitate to contact me."
+  },
+
+  "Footer": {
+    "copyright": "© Copyright 2024. Made by"
+  }
+}

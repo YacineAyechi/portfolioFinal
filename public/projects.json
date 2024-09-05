@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Dha7akna",
-    "description": "Minecraft server ",
+    "description": "Platform where users can share memes.",
     "technologies": "Next.js 14, Tailwind CSS, Firebase",
     "image": "/projects/dha7akna.png",
     "liveLink": "dha7akna.lol",
@@ -10,28 +10,28 @@
   },
   {
     "id": "2",
-    "title": "Ecommerce Comeq Pro",
-    "description": "Description of another project",
-    "technologies": "Tech Stack",
-    "image": "/projects/dha7akna.png",
+    "title": "Ecommerce ComeQ Pro",
+    "description": "Ecommerce Project.",
+    "technologies": "Next.js 14",
+    "image": "/projects/comeqpro.jpg",
     "liveLink": "#",
     "sourceCodeLink": "#"
   },
   {
     "id": "3",
     "title": "TimeCapsule",
-    "description": "Description of another project",
-    "technologies": "Tech Stack",
-    "image": "/projects/dha7akna.png",
+    "description": "Website where users can create capsules and set a date for them to open.",
+    "technologies": "Next.js 14, Tailwind CSS, DaisyUi, Firebase",
+    "image": "/projects/TimeCapsule.png",
     "liveLink": "#",
     "sourceCodeLink": "#"
   },
   {
     "id": "4",
     "title": "TaskTrackrr",
-    "description": "Description of another project",
+    "description": "Description of another ",
     "technologies": "Tech Stack",
-    "image": "/projects/dha7akna.png",
+    "image": "/projects/tasktrackrr.png",
     "liveLink": "#",
     "sourceCodeLink": "#"
   },

@@ -1,8 +1,12 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
+import { Link } from "../../navigation";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Navbar = () => {
+  const t = useTranslations("Navbar");
+
   return (
     <div className="flex justify-between my-6 mx-44">
       <div>
@@ -17,38 +21,28 @@ const Navbar = () => {
           <li className="flex mr-8">
             <span className="text-[#C778DD] font-bold mr-0.5">#</span>
             <Link href="/" className="font-bold text-[#ABB2BF]">
-              home
+              {t("home")}
             </Link>
           </li>
           <li className="flex mr-8">
             <span className="text-[#C778DD] font-bold mr-0.5">#</span>
-            <Link href="/" className="font-bold text-[#ABB2BF]">
-              works
+            <Link href="/projets" className="font-bold text-[#ABB2BF]">
+              {t("works")}
             </Link>
           </li>
           <li className="flex mr-8">
             <span className="text-[#C778DD] font-bold mr-0.5">#</span>
-            <Link href="/" className="font-bold text-[#ABB2BF]">
-              about-me
+            <Link href="/about" className="font-bold text-[#ABB2BF]">
+              {t("about")}
             </Link>
           </li>
           <li className="flex mr-8">
             <span className="text-[#C778DD] font-bold mr-0.5">#</span>
-            <Link href="/" className="font-bold text-[#ABB2BF]">
-              contacts
+            <Link href="/contacts" className="font-bold text-[#ABB2BF]">
+              {t("contacts")}
             </Link>
           </li>
-
-          <li className="flex">
-            <span className="text-[#ABB2BF] font-bold mr-0.5">EN</span>
-            <Image
-              src="/icons/chevron.svg"
-              width={14}
-              height={14}
-              priority={true}
-              alt="chevron"
-            />
-          </li>
+          <LanguageSwitcher />
         </ul>
       </div>
     </div>

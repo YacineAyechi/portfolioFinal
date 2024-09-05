@@ -1,11 +1,14 @@
 import React from "react";
 import SectionHeadline from "./SectionHeadline";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const Skills = () => {
+  const t = useTranslations("Skills");
+
   return (
     <div className="my-16 mx-44">
-      <SectionHeadline sectionTitle="skills" />
+      <SectionHeadline sectionTitle={t("skills")} />
 
       <div className="flex flex-col md:flex-row items-center md:items-start justify-between mt-12">
         {/* Image Section */}

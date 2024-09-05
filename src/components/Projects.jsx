@@ -5,14 +5,27 @@ import Link from "next/link";
 import React from "react";
 import ProjectsSectionHeadline from "./ProjectsSectionHeadline";
 import projectsData from "../../public/projects.json";
+import toast, { Toaster } from "react-hot-toast";
+import { useTranslations } from "next-intl";
 
 const Projects = () => {
+  const t = useTranslations("Projects");
+
   const latestProjects = projectsData.slice(0, 3);
+
+  const handleSourceCodeClick = (link) => {
+    if (link === "#") {
+      toast.error("Source code is still not available.");
+    } else {
+      window.open(link, "_blank");
+    }
+  };
 
   return (
     <div className="my-16 mx-44">
+      <Toaster />
       <ProjectsSectionHeadline
-        sectionTitle="projects"
+        sectionTitle={t("projects")}
         sectionLink="/projects"
       />
 
@@ -35,20 +48,24 @@ const Projects = () => {
               </div>
               <div className="border-r border-l border-b border-white p-4 text-white">
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                <p className="text-gray-400 mb-4">{project.description}</p>
+                <p className="text-gray-400 mb-4 truncate">
+                  {project.description}
+                </p>
                 <div className="flex space-x-4">
                   <Link
                     href={project.liveLink}
-                    className="bg-[#C778DD] text-white py-2 px-4 rounded hover:bg-[#B567CB] transition"
+                    className="bg-[#C778DD] w-1/2 text-center text-white py-2 px-4 rounded hover:bg-[#B567CB] transition"
                   >
-                    Live
+                    {t("live")}
                   </Link>
-                  <Link
-                    href={project.sourceCodeLink}
-                    className="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 transition"
+                  <button
+                    onClick={() =>
+                      handleSourceCodeClick(project.sourceCodeLink)
+                    }
+                    className=" w-full bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 transition"
                   >
-                    Source Code
-                  </Link>
+                    {t("sourceCode")}
+                  </button>
                 </div>
               </div>
             </div>

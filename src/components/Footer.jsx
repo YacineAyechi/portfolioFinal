@@ -1,9 +1,12 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 
 const Footer = () => {
+  const t = useTranslations("Footer");
+
   return (
     <div className="border-t border-white py-8 px-44">
       <div className="flex justify-between">
@@ -27,7 +30,7 @@ const Footer = () => {
       </div>
       <div className="pt-12 flex items-center justify-center">
         <p className="text-[#ABB2BF]">
-          © Copyright 2024. Made by{" "}
+          {t("copyright")}{" "}
           <Link href="/" className="text-white hover:text-[#C778DD] font-bold">
             Yacine Ayachi
           </Link>
