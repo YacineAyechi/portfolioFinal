@@ -54,18 +54,18 @@ const Projects = () => {
                 <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href={project.liveLink}
-                    className="bg-[#C778DD] w-full sm:w-1/2 text-center text-white py-2 px-4 rounded hover:bg-[#B567CB] transition"
+                    className="bg-[#C778DD] w-full md:w-full text-center text-white py-2 px-4 rounded hover:bg-[#B567CB] transition"
                   >
                     {t("live")}
                   </Link>
-                  <button
+                  {/* <button
                     onClick={() =>
                       handleSourceCodeClick(project.sourceCodeLink)
                     }
                     className="w-full sm:w-1/2 bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 transition"
                   >
                     {t("sourceCode")}
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>

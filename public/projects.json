@@ -14,7 +14,7 @@
     "description": "Ecommerce Project.",
     "technologies": "Next.js 14",
     "image": "/projects/comeqpro.jpg",
-    "liveLink": "#",
+    "liveLink": "http://comeqpro.com/",
     "sourceCodeLink": "#"
   },
   {
@@ -23,43 +23,43 @@
     "description": "Website where users can create capsules and set a date for them to open.",
     "technologies": "Next.js 14, Tailwind CSS, DaisyUi, Firebase",
     "image": "/projects/TimeCapsule.png",
-    "liveLink": "#",
+    "liveLink": "https://time-capsule-eosin.vercel.app/",
     "sourceCodeLink": "#"
   },
   {
     "id": "4",
     "title": "TaskTrackrr",
     "description": "Description of another ",
-    "technologies": "Tech Stack",
-    "image": "/projects/tasktrackrr.png",
-    "liveLink": "#",
+    "technologies": "Next.js 14",
+    "image": "/projects/taskTrackrr.png",
+    "liveLink": "https://tasktrackrr.vercel.app/",
     "sourceCodeLink": "#"
   },
   {
     "id": "5",
     "title": "SwiftLink (Url Shortener)",
     "description": "Description of another project",
-    "technologies": "Tech Stack",
-    "image": "/projects/dha7akna.png",
-    "liveLink": "#",
+    "technologies": "Next.js 14, Firebase",
+    "image": "/projects/sw.png",
+    "liveLink": "https://sw-sand.vercel.app/login",
     "sourceCodeLink": "#"
   },
   {
     "id": "6",
     "title": "MusIQ",
     "description": "Description of another project",
-    "technologies": "Tech Stack",
-    "image": "/projects/dha7akna.png",
-    "liveLink": "#",
+    "technologies": "Next.js 14, Tailwind CSS, Shadcn ui",
+    "image": "/projects/musiq.png",
+    "liveLink": "https://www.musiq.website/",
     "sourceCodeLink": "#"
   },
   {
     "id": "7",
     "title": "CodeLingua",
     "description": "Description of another project",
-    "technologies": "Tech Stack",
-    "image": "/projects/dha7akna.png",
-    "liveLink": "#",
+    "technologies": "Next.js 14, Tailwind CSS, Shadcn ui, NextAtuh",
+    "image": "/projects/codelingua.png",
+    "liveLink": "https://code-lingua-two.vercel.app/",
     "sourceCodeLink": "#"
   }
 ]
