@@ -8,21 +8,25 @@ const Contacts = () => {
   const t = useTranslations("Contacts");
 
   return (
-    <div className="my-16 mx-44">
+    <div className="my-16 px-6 md:px-16 lg:px-44">
       <SectionHeadline sectionTitle={t("contacts")} />
 
-      <div className="mt-12 flex justify-between">
-        <p className="w-1/2">{t("contactDescription")}</p>
+      <div className="mt-12 flex flex-col md:flex-row justify-between">
+        {/* Contact Description */}
+        <p className="w-full md:w-1/2 mb-8 md:mb-0">
+          {t("contactDescription")}
+        </p>
 
-        <div className="border border-white p-4">
-          <h3 className="text-xl font-bold ">{t("contactHere")}</h3>
+        {/* Contact Details */}
+        <div className="border border-white p-4 w-full md:w-auto">
+          <h3 className="text-xl font-bold">{t("contactHere")}</h3>
           <div className="flex items-center mt-4">
             <FaRegEnvelope className="text-xl" />
-            <p className="ml-1">yacineayachi9@gmail.com</p>
+            <p className="ml-2">yacineayachi9@gmail.com</p>
           </div>
           <div className="flex items-center mt-2">
             <FaWhatsapp className="text-xl" />
-            <p className="ml-1">+216 20072544</p>
+            <p className="ml-2">+216 20072544</p>
           </div>
         </div>
       </div>

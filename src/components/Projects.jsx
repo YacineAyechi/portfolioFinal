@@ -22,7 +22,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="my-16 mx-44">
+    <div className="my-8 mx-4 md:my-16 md:mx-16 lg:mx-44">
       <Toaster />
       <ProjectsSectionHeadline
         sectionTitle={t("projects")}
@@ -51,10 +51,10 @@ const Projects = () => {
                 <p className="text-gray-400 mb-4 truncate">
                   {project.description}
                 </p>
-                <div className="flex space-x-4">
+                <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href={project.liveLink}
-                    className="bg-[#C778DD] w-1/2 text-center text-white py-2 px-4 rounded hover:bg-[#B567CB] transition"
+                    className="bg-[#C778DD] w-full sm:w-1/2 text-center text-white py-2 px-4 rounded hover:bg-[#B567CB] transition"
                   >
                     {t("live")}
                   </Link>
@@ -62,7 +62,7 @@ const Projects = () => {
                     onClick={() =>
                       handleSourceCodeClick(project.sourceCodeLink)
                     }
-                    className=" w-full bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 transition"
+                    className="w-full sm:w-1/2 bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 transition"
                   >
                     {t("sourceCode")}
                   </button>
